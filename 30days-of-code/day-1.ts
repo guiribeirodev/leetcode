@@ -20,16 +20,20 @@ function readLine(): string {
 }
 
 function main() {
+    const i = 4
+    const d = 4.0
+    const s = 'HackerRank '
+    
     // Enter your code here
     let inputInt = parseInt(readLine()) 
     let inputFloat = parseFloat(readLine())
     let inputText = readLine()
     
-    let sumNumbers = inputInt + inputFloat
+    let sumInt = i + inputInt
+    let sumFloat = d + inputFloat
+    let concat = s + inputText 
     
-    let phrase = 'HackerRank ' + inputText
-    
-    console.log(inputInt)
-    console.log(sumNumbers)
-    console.log(phrase)
+    console.log(sumInt)
+    console.log(sumFloat.toFixed(1))
+    console.log(concat)
 }
