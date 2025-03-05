@@ -1,3 +1,3 @@
-# HackerRank 📈
+# Desafios Código
 
-Repositório para coisas feitas no site HackerRank!
+Repositório para desafios referente a leetcode e códigos
